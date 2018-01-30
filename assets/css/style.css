@@ -1,0 +1,105 @@
+*{
+  font-family: Arial, "Helvetica Neue", Arial, Helvetica, sans-serif, sans-serif;
+  line-height: 1.5em;
+
+}
+img {
+  width: 65px;
+  height: 45px;
+}
+input{
+  width:90%;
+}
+label{
+
+}
+.bigimg {
+  width: 320px;
+  height: 240px;
+}
+.portimg{
+  width: 260px;
+  height: 140px;
+}
+
+h1, h2, h3, .logo {
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif, Times, "Times New Roman", serif;
+  color: #4aaaa5;
+}
+h1,h2,h3 {
+  padding: 3% 1%;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.2em;
+}
+.main-content {
+  width: 960px;
+  float:left;
+  padding:3%;
+
+}
+.contain-connect {
+  width: 270px;
+  float:right;
+  padding:5%;
+}
+.logo {
+  padding:15px;
+  color: #ffffff;
+  font-size: 2.5em;
+  background: #4aaaa5;
+  float: left;
+}
+.menu {
+  color:grey;
+  float: right;
+  text-align: center;
+  padding: 25px;
+  
+}
+.navbar {
+  border-bottom: grey solid 1px;
+}
+.AboutMe{
+  padding-top:20px;
+  border-top: grey solid 1px;
+}
+.Portfolio{
+  padding-top:20px;
+  border-top: grey solid 1px;
+}
+.ContactMe{
+  padding-top:20px;
+  border-top: grey solid 1px;
+}
+
+.navbar::after {  
+    content:"";
+    display: block;
+    clear:both;
+  }
+
+  
+  .foot{
+    background: grey;
+    text-align: center;
+    padding:3%;
+    border-top: #4aaaa5 solid 10px;
+  }
+ .headshot{
+   float:left;
+   margin: 8px;
+ }
+ .headshot::after {  
+  content:"";
+  display: block;
+  clear:both;}
+  .content::after {  
+    content:"";
+    display: block;
+    clear:both;}
+
