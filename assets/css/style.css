@@ -130,7 +130,7 @@ a:hover{
 
   .ContactText {
    height:100px;   
-    
+   width: 90%; 
     }
     .ContactSub{
     color:#ffffff;
