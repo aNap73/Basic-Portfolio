@@ -4,12 +4,12 @@
 }
 
 body {
+
+}
+.content{
   background-image: url('../images/cork-wallet.png');
   background-size: cover;
   background-position: center;
-}
-.content{
-  
 }
 img {
   width: 65px;
@@ -61,6 +61,7 @@ a:hover{
   line-height: 1.5em;
   background-color: #ffffff;
   margin:40px;
+
 
 }
 .contain-connect {
